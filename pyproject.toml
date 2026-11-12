@@ -1,0 +1,12 @@
+[project]
+name = "text-to-speach"
+version = "0.1.0"
+description = "Converte texto em áudio usando a API de TTS da OpenAI"
+requires-python = ">=3.12"
+dependencies = [
+    "openai>=3.46.0",
+    "python-dotenv>=1.2.4",
+]
+
+[tool.uv]
+package = false
