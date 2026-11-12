@@ -12,3 +12,7 @@ wheels/
 # Segredos e áudios gerados
 .env
 storage/
+
+# Conteúdo de docs/ não é versionado (só a pasta)
+docs/*
+!docs/.gitkeep
